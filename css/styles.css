@@ -89,9 +89,9 @@ body {
   background-color: var(--secondary-color-project);
   cursor: pointer;
   font-family:Roboto, sans-serif;
-font-style: normal;
 font-size: 16px;
 font-weight: 700;
+line-height: 1.88;
 letter-spacing: 0.06em;
 }
 
@@ -177,10 +177,12 @@ font-family:Roboto, sans-serif;
 font-style: normal;
 font-size: 16px;
 font-weight: 500;
+line-height: 1.62;
 letter-spacing: 0.03em;
 cursor: pointer;
 color: var(--main-text-color);
-background-color: #F5F4FA ;
+background-color: #F5F4FA 
+
  }
 
  .list-button button:hover,.list-button button:focus {
