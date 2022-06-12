@@ -1,0 +1,21 @@
+/* colors for project */
+:root { 
+    --main-text-color: #212121;
+    --secondary-text-color : #757575;
+    --main-color-project : #FFFFFF;
+    --secondary-color-project : #2196F3;
+    --background-second-color: #2F303A;
+
+    
+}
+
+
+
+/* tag body */
+
+body {background-color: var(--main-color-project);
+color: var(--main-text-color);}
+
+/* CSS Header */
+
+.web {color: var(--secondary-color-project) ;}
