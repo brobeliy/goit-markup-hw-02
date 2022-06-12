@@ -71,7 +71,6 @@ body {
 /* Hero */
 .hero {
   background-color: var(--background-second-color);
-  
 }
 
 .hero .title {
@@ -88,17 +87,18 @@ body {
   color: var(--main-color-project);
   background-color: var(--secondary-color-project);
   cursor: pointer;
-  font-family:Roboto, sans-serif;
-font-size: 16px;
-font-weight: 700;
-line-height: 1.88;
-letter-spacing: 0.06em;
+  font-family: Roboto, sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 1.88;
+  letter-spacing: 0.06em;
 }
 
-.hero button:hover, .hero button:focus { 
-    background-color:var(--main-color-project) ;
-    color: var(--secondary-color-project);
-  }
+.hero button:hover,
+.hero button:focus {
+  background-color: var(--main-color-project);
+  color: var(--secondary-color-project);
+}
 
 /* features */
 
@@ -141,11 +141,12 @@ letter-spacing: 0.06em;
 }
 
 /* CSS footer */
-.foot { 
+.foot {
   background-color: var(--background-second-color);
 }
 
-.foot address {font-style: normal;
+.foot address {
+  font-style: normal;
 }
 .textstudio {
   color: var(--main-color-project);
@@ -170,35 +171,36 @@ letter-spacing: 0.06em;
 /* CSS main Portfolio */
 
 .list-button {
-    list-style: none;
+  list-style: none;
 }
 .list-button button {
-font-family:Roboto, sans-serif;
-font-style: normal;
-font-size: 16px;
-font-weight: 500;
-line-height: 1.62;
-letter-spacing: 0.03em;
-cursor: pointer;
-color: var(--main-text-color);
-background-color: #F5F4FA 
+  font-family: Roboto, sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.62;
+  letter-spacing: 0.03em;
+  cursor: pointer;
+  color: var(--main-text-color);
+  background-color: #f5f4fa;
+}
 
- }
-
- .list-button button:hover,.list-button button:focus {
-    color: var(--main-color-project);
-    background-color: var(--secondary-color-project);
- }
+.list-button button:hover,
+.list-button button:focus {
+  color: var(--main-color-project);
+  background-color: var(--secondary-color-project);
+}
 
 .list-projects {
-font-size: 16px;
-line-height: 1.88;
-color: var(--secondary-text-color);
-list-style: none;}
+  font-size: 16px;
+  line-height: 1.88;
+  color: var(--secondary-text-color);
+  list-style: none;
+}
 
-.list-projects .title { 
-font-weight: 700;
-font-size: 18px;
-line-height: 2;
-letter-spacing: 0.06em;
-color: var(--main-text-color);}
+.list-projects .title {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+  color: var(--main-text-color);
+}
