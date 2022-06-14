@@ -57,9 +57,14 @@ body {
   color: var(--secondary-color-project);
 }
 
+.list .nav-link.current { 
+  color: var(--secondary-color-project);
+}
+
 .contacts-header {
   color: var(--secondary-text-color);
   text-decoration: none;
+  font-weight: 500;
 }
 .contacts-header:focus,
 .contacts-header:hover {
@@ -114,6 +119,8 @@ body {
 
 .features .title {
   font-weight: 700;
+ font-size: 14px;
+ text-transform: uppercase;
   line-height: 1.14;
   color: var(--main-text-color);
 }
@@ -138,6 +145,7 @@ body {
 .team .job {
   font-size: 16px;
   line-height: 1.19;
+  color: var(--secondary-text-color);
 }
 
 /* CSS footer */
